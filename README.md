@@ -16,36 +16,11 @@
 			<!-- left column: map (kept above) -->
 		</td>
 		<td valign="top" style="padding-left:18px;">
-			<!-- STATS CARD START - edit the numbers inside the <text> elements with the matching id attributes -->
-			<svg xmlns='http://www.w3.org/2000/svg' width='320' height='200' viewBox='0 0 320 200' role='img' aria-label='Hackathon stats card' style='border-radius:8px'>
-				<defs>
-					<linearGradient id='g' x1='0' x2='1'>
-						<stop offset='0' stop-color='#4c566a'/>
-						<stop offset='1' stop-color='#2e3440'/>
-					</linearGradient>
-				</defs>
-				<rect width='100%' height='100%' rx='10' fill='url(#g)' />
-				<text x='20' y='34' fill='#eceff4' font-size='18' font-family='Inter, Arial, sans-serif'>Hackathon Stats</text>
-				<g font-family='Inter, Arial, sans-serif' fill='#d8dee9' font-size='14'>
-					<text x='20' y='68'>Total:</text>
-					<text id='total' x='220' y='68' text-anchor='end' font-weight='700'>12</text>
-
-					<text x='20' y='98'>MLH Events:</text>
-					<text id='mlh' x='220' y='98' text-anchor='end' font-weight='700'>10</text>
-
-					<text x='20' y='128'>HUK:</text>
-					<text id='huk' x='220' y='128' text-anchor='end' font-weight='700'>5</text>
-
-                    <text x='20' y='158'>Organised</text>
-                    <text id='organised' x='140' y='158' text-anchor='end' font-weight='700'>3</text>
-
-                    <text x='160' y='158'>Volunteered</text>
-                    <text id='volunteered' x='300' y='158' text-anchor='end' font-weight='700'>4</text>
-				</g>
-			</svg>
+			<!-- STATS CARD START - edit the numbers by updating the SVG file at assets/hackathon-stats.svg -->
+			<img src="./assets/hackathon-stats.svg" alt="Hackathon stats" width="320" style="border-radius:8px" />
 			<!-- STATS CARD END -->
 
-			<p style="margin-top:8px;margin-bottom:0;font-size:12px;color:#586069">Edit the numbers directly in this file: change the values inside the <code>&lt;text id='...'</code> elements between <!-- STATS CARD START --> and <!-- STATS CARD END -->.</p>
+			<p style="margin-top:8px;margin-bottom:0;font-size:12px;color:#586069">Edit the numbers by opening <strong>assets/hackathon-stats.svg</strong> and changing the values inside the <code>&lt;text id='...'</code> elements (then commit).</p>
 		</td>
 	</tr>
 </table>
