@@ -1,61 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="240" height="320" viewBox="0 0 240 320" role="img" aria-label="Hackathon stats card">
-  <!-- Stacked blocks, transparent background -->
-
+  <!-- Single flat background with rounded corners -->
   <defs>
-    <linearGradient id="gradOrganised" x1="1" x2="0">
-      <stop offset="0%" stop-color="#2e8b57" />
-      <stop offset="25%" stop-color="#2e8b57" />
-      <stop offset="50%" stop-color="#6a0dad" />
-      <stop offset="100%" stop-color="#6a0dad" />
-    </linearGradient>
-    <linearGradient id="gradVolunteered" x1="1" x2="0">
-      <stop offset="0%" stop-color="#0b3d91" />
-      <stop offset="25%" stop-color="#0b3d91" />
-      <stop offset="50%" stop-color="#6a0dad" />
-      <stop offset="100%" stop-color="#6a0dad" />
-    </linearGradient>
-    <linearGradient id="gradMLH" x1="1" x2="0">
-      <stop offset="0%" stop-color="#0b3d91" />
-      <stop offset="25%" stop-color="#0b3d91" />
-      <stop offset="35%" stop-color="#9ec7f0" />
-      <stop offset="50%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#ffffff" />
-    </linearGradient>
-    <linearGradient id="gradHUK" x1="1" x2="0">
-      <stop offset="0%" stop-color="#c2185b" />
-      <stop offset="25%" stop-color="#c2185b" />
-      <stop offset="35%" stop-color="#e91e63" />
-      <stop offset="60%" stop-color="#ff1493" />
-      <stop offset="100%" stop-color="#ff1493" />
-    </linearGradient>
+    <clipPath id="roundedCorners">
+      <rect x="0" y="0" width="240" height="320" rx="6" />
+    </clipPath>
   </defs>
+  
+  <g clip-path="url(#roundedCorners)">
+    <!-- Stacked blocks with flat edges -->
 
-  <!-- Hackathons (purple) -->
-  <rect x="0" y="0" width="240" height="64" rx="6" fill="#6a0dad" />
-  <text x="16" y="32" fill="#ffffff" font-size="18" font-family="Inter, Arial, sans-serif" font-weight="700" dominant-baseline="middle">Hackathons</text>
-  <text id="total" x="216" y="32" text-anchor="end" font-weight="700" fill="#ffffff" font-size="20" font-family="Inter, Arial, sans-serif" dominant-baseline="middle">30</text>
+    <!-- Hackathons (purple) -->
+    <rect x="0" y="0" width="240" height="64" fill="#6a0dad" />
+  <text x="16" y="32" fill="#ffffff" font-size="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif" font-weight="700" dominant-baseline="middle">Hackathons</text>
+  <text id="total" x="216" y="32" text-anchor="end" font-weight="700" fill="#ffffff" font-size="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif" dominant-baseline="middle">30</text>
 
-  <!-- MLH Events (white block) -->
-  <rect x="0" y="64" width="240" height="64" rx="6" fill="url(#gradMLH)" />
-  <text x="16" y="96" fill="#111111" font-size="18" font-family="Inter, Arial, sans-serif" dominant-baseline="middle">
+
+  <!-- MLH Events (all white background) -->
+    <rect x="0" y="64" width="240" height="64" fill="#ffffff" />
+  <text x="16" y="96" fill="#111111" font-size="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif" dominant-baseline="middle">
     <tspan fill="#8b0000" font-weight="700">M</tspan><tspan fill="#00008b" font-weight="700">L</tspan><tspan fill="#b8860b" font-weight="700">H</tspan>
-    <tspan fill="#000000" font-weight="600"> Events</tspan>
+    <tspan fill="#000000" font-weight="700"> Events</tspan>
   </text>
-  <text id="mlh" x="216" y="96" text-anchor="end" font-weight="700" fill="#ffffff" font-size="20" font-family="Inter, Arial, sans-serif" dominant-baseline="middle">10</text>
+  <text id="mlh" x="216" y="96" text-anchor="end" font-weight="700" fill="#111111" font-size="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif" dominant-baseline="middle">10</text>
 
   <!-- HUK (hot pink) -->
-  <rect x="0" y="128" width="240" height="64" rx="6" fill="url(#gradHUK)" />
-  <text x="16" y="160" fill="#ffffff" font-size="18" font-family="Inter, Arial, sans-serif" font-weight="700" dominant-baseline="middle">HUK Events</text>
-  <text id="huk" x="216" y="160" text-anchor="end" font-weight="700" fill="#ffffff" font-size="20" font-family="Inter, Arial, sans-serif" dominant-baseline="middle">5</text>
+    <rect x="0" y="128" width="240" height="64" fill="#ff1493" />
+  <text x="16" y="160" fill="#ffffff" font-size="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif" font-weight="700" dominant-baseline="middle">HUK Events</text>
+  <text id="huk" x="216" y="160" text-anchor="end" font-weight="700" fill="#ffffff" font-size="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif" dominant-baseline="middle">5</text>
 
-  <!-- Organised (purple with green from right) -->
-  <rect x="0" y="192" width="240" height="64" rx="6" fill="url(#gradOrganised)" />
-  <text x="16" y="224" fill="#ffffff" font-size="18" font-family="Inter, Arial, sans-serif" font-weight="700" dominant-baseline="middle">Organised</text>
-  <text id="organised" x="216" y="224" text-anchor="end" font-weight="700" fill="#ffffff" font-size="20" font-family="Inter, Arial, sans-serif" dominant-baseline="middle">3</text>
+  <!-- Organised (purple) -->
+    <rect x="0" y="192" width="240" height="64" fill="#6a0dad" />
+  <text x="16" y="224" fill="#ffffff" font-size="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif" font-weight="700" dominant-baseline="middle">Organised</text>
+  <text id="organised" x="216" y="224" text-anchor="end" font-weight="700" fill="#ffffff" font-size="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif" dominant-baseline="middle">3</text>
 
-  <!-- Volunteered (purple with dark blue from right) -->
-  <rect x="0" y="256" width="240" height="64" rx="6" fill="url(#gradVolunteered)" />
-  <text x="16" y="288" fill="#ffffff" font-size="18" font-family="Inter, Arial, sans-serif" font-weight="700" dominant-baseline="middle">Volunteered</text>
-  <text id="volunteered" x="216" y="288" text-anchor="end" font-weight="700" fill="#ffffff" font-size="20" font-family="Inter, Arial, sans-serif" dominant-baseline="middle">4</text>
+  <!-- Volunteered (purple) -->
+    <rect x="0" y="256" width="240" height="64" fill="#6a0dad" />
+  <text x="16" y="288" fill="#ffffff" font-size="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif" font-weight="700" dominant-baseline="middle">Volunteered</text>
+  <text id="volunteered" x="216" y="288" text-anchor="end" font-weight="700" fill="#ffffff" font-size="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif" dominant-baseline="middle">4</text>
 
+
+  </g>
 </svg>
