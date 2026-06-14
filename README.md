@@ -23,9 +23,10 @@
 
 <p style="margin-top:8px;font-size:14px">Countries: UK <img src="https://flagcdn.com/w20/gb.png" alt="UK flag" style="width:18px;height:12px;vertical-align:middle;border-radius:2px;margin-left:6px;"> (England <img src="https://flagcdn.com/w20/gb-eng.png" alt="England flag" style="width:18px;height:12px;vertical-align:middle;border-radius:2px;margin-left:6px;">, Scotland <img src="https://flagcdn.com/w20/gb-sct.png" alt="Scotland flag" style="width:18px;height:12px;vertical-align:middle;border-radius:2px;margin-left:6px;">), USA <img src="https://flagcdn.com/w20/us.png" alt="USA flag" style="width:18px;height:12px;vertical-align:middle;border-radius:2px;margin-left:6px;">, Canada <img src="https://flagcdn.com/w20/ca.png" alt="Canada flag" style="width:18px;height:12px;vertical-align:middle;border-radius:2px;margin-left:6px;">, Ireland <img src="https://flagcdn.com/w20/ie.png" alt="Ireland flag" style="width:18px;height:12px;vertical-align:middle;border-radius:2px;margin-left:6px;">, Slovakia <img src="https://flagcdn.com/w20/sk.png" alt="Slovakia flag" style="width:18px;height:12px;vertical-align:middle;border-radius:2px;margin-left:6px;">, Spain <img src="https://flagcdn.com/w20/es.png" alt="Spain flag" style="width:18px;height:12px;vertical-align:middle;border-radius:2px;margin-left:6px;"></p>
 
-<table style="width:100%;table-layout:fixed;border-collapse:separate;border-spacing:10px 12px;margin-top:8px;">
+
+<table style="width:100%;table-layout:fixed;border-collapse:separate;border-spacing:0 12px;margin-top:8px;">
 	<tr>
-		<td valign="top" style="width:50%;padding:0;">
+		<td valign="top" style="padding:0;">
 			<table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #30363d;border-radius:8px;background:#0d1117;color:#c9d1d9;table-layout:fixed;">
 				<tr>
 					<td width="132" valign="top" style="padding:12px 0 12px 12px;">
@@ -56,7 +57,9 @@
 				</tr>
 			</table>
 		</td>
-		<td valign="top" style="width:50%;padding:0;">
+	</tr>
+	<tr>
+		<td valign="top" style="padding:0;">
 			<table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #30363d;border-radius:8px;background:#0d1117;color:#c9d1d9;table-layout:fixed;">
 				<tr>
 					<td width="132" valign="top" style="padding:12px 0 12px 12px;">
@@ -86,7 +89,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td valign="top" style="width:50%;padding:0;">
+		<td valign="top" style="padding:0;">
 			<table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #30363d;border-radius:8px;background:#0d1117;color:#c9d1d9;table-layout:fixed;">
 				<tr>
 					<td width="132" valign="top" style="padding:12px 0 12px 12px;">
@@ -115,7 +118,9 @@
 				</tr>
 			</table>
 		</td>
-		<td valign="top" style="width:50%;padding:0;">
+	</tr>
+	<tr>
+		<td valign="top" style="padding:0;">
 			<table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #30363d;border-radius:8px;background:#0d1117;color:#c9d1d9;table-layout:fixed;">
 				<tr>
 					<td width="132" valign="top" style="padding:12px 0 12px 12px;">
