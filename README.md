@@ -4,10 +4,10 @@
     <table style="border-collapse:collapse;border:none;margin:0 auto;">
 	    <tr>
 		    <td align="center" valign="middle" style="border:none;padding:0 12px 8px 12px;">
-                <a href="https://oscar-ryley.github.io/map" target="_blank" rel="noopener noreferrer">
+                <a href="https://oscarryley.com/map" target="_blank" rel="noopener noreferrer">
                     <picture>
-                        <source media="(prefers-color-scheme: dark)" srcset="https://s.wordpress.com/mshots/v1/https://oscar-ryley.github.io/map?theme=dark&w=960" />
-					    <img alt="Hackathon map" src="https://s.wordpress.com/mshots/v1/https://oscar-ryley.github.io/map?w=960" style="width:100%;max-width:960px;height:320px;object-fit:cover;object-position:center;display:block;margin:0 auto;" />
+                        <source media="(prefers-color-scheme: dark)" srcset="https://s.wordpress.com/mshots/v1/https://oscarryley.com/map?theme=dark&w=960" />
+					    <img alt="Hackathon map" src="https://s.wordpress.com/mshots/v1/https://oscarryley.com/map?w=960" style="width:100%;max-width:960px;height:320px;object-fit:cover;object-position:center;display:block;margin:0 auto;" />
                     </picture>
                 </a>
 		    </td>
