@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="160" viewBox="0 0 340 160" role="img" aria-label="Hackathon stats card">
+  <defs>
+    <!-- Card outer rounded corners -->
+    <clipPath id="roundedCorners">
+      <rect x="0" y="0" width="340" height="160" rx="8" />
+    </clipPath>
+    <!-- Flag rounded corners -->
+    <clipPath id="flagClip">
+      <rect width="16" height="12" rx="1.5" />
+    </clipPath>
+  </defs>
+  
+  <g clip-path="url(#roundedCorners)">
+    <!-- Row 1: Hackathons Total (Purple) -->
+    <rect x="0" y="0" width="340" height="40" fill="#6a0dad" />
+    <text x="14" y="20" fill="#ffffff" font-size="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" dominant-baseline="middle">Hackathons</text>
+    <text id="total" x="326" y="20" text-anchor="end" font-weight="700" fill="#ffffff" font-size="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">31</text>
+
+    <!-- Row 2: MLH & HUK side-by-side -->
+    <!-- MLH (White) -->
+    <rect x="0" y="40" width="170" height="40" fill="#ffffff" />
+    <text x="14" y="60" fill="#111111" font-size="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">
+      <tspan fill="#8b0000" font-weight="700">M</tspan><tspan fill="#00008b" font-weight="700">L</tspan><tspan fill="#b8860b" font-weight="700">H</tspan>
+      <tspan fill="#000000" font-weight="700"> Events</tspan>
+    </text>
+    <text id="mlh" x="156" y="60" text-anchor="end" font-weight="700" fill="#111111" font-size="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">11</text>
+
+    <!-- HUK (Hot Pink) -->
+    <rect x="170" y="40" width="170" height="40" fill="#ff1493" />
+    <text x="184" y="60" fill="#ffffff" font-size="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" dominant-baseline="middle">HUK Events</text>
+    <text id="huk" x="326" y="60" text-anchor="end" font-weight="700" fill="#ffffff" font-size="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">5</text>
+
+    <!-- Row 3: Organised & Volunteered side-by-side -->
+    <!-- Organised (Purple) -->
+    <rect x="0" y="80" width="170" height="40" fill="#6a0dad" />
+    <text x="14" y="100" fill="#ffffff" font-size="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" dominant-baseline="middle">Organised</text>
+    <text id="organised" x="156" y="100" text-anchor="end" font-weight="700" fill="#ffffff" font-size="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">3</text>
+
+    <!-- Volunteered (Darker Purple) -->
+    <rect x="170" y="80" width="170" height="40" fill="#580b92" />
+    <text x="184" y="100" fill="#ffffff" font-size="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" dominant-baseline="middle">Volunteered</text>
+    <text id="volunteered" x="326" y="100" text-anchor="end" font-weight="700" fill="#ffffff" font-size="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">4</text>
+
+    <!-- Row 4: Single Line Flush-Aligned Countries Block (Dark Purple) -->
+    <rect x="0" y="120" width="340" height="40" fill="#430770" />
+    
+    <!-- Title (Starts at x=14 to match Hackathons, MLH, Organised) -->
+    <text x="11" y="140" fill="#ffffff" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" dominant-baseline="middle">Countries</text>
+    
+    <!-- UK -->
+    <text x="66" y="140" fill="#ffffff" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">UK</text>
+    <g transform="translate(81, 135) scale(0.8125)" clip-path="url(#flagClip)">
+      <rect width="16" height="12" fill="#012169"/>
+      <path d="M0,0 L16,12 M16,0 L0,12" stroke="#ffffff" stroke-width="2.6"/>
+      <path d="M0,0 L16,12 M16,0 L0,12" stroke="#cf142b" stroke-width="1.2"/>
+      <path d="M8,0 V12 M0,6 H16" stroke="#ffffff" stroke-width="3.6"/>
+      <path d="M8,0 V12 M0,6 H16" stroke="#cf142b" stroke-width="2.2"/>
+    </g>
+
+    <text x="96" y="140" fill="#cccccc" font-size="9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">(</text>
+
+    <!-- England -->
+    <g transform="translate(100, 135) scale(0.8125)" clip-path="url(#flagClip)">
+      <rect width="16" height="12" fill="#ffffff"/>
+      <path d="M8,0 V12 M0,6 H16" stroke="#cf142b" stroke-width="2.6"/>
+    </g>
+
+    <!-- Scotland -->
+    <g transform="translate(115, 135) scale(0.8125)" clip-path="url(#flagClip)">
+      <rect width="16" height="12" fill="#005eb8"/>
+      <path d="M0,0 L16,12 M16,0 L0,12" stroke="#ffffff" stroke-width="2.5"/>
+    </g>
+
+    <text x="130" y="140" fill="#cccccc" font-size="9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">),</text>
+
+    <!-- USA -->
+    <g transform="translate(141, 135) scale(0.8125)" clip-path="url(#flagClip)">
+      <rect width="16" height="12" fill="#ffffff"/>
+      <path d="M0,0.9 H16 M0,2.7 H16 M0,4.6 H16 M0,6.4 H16 M0,8.3 H16 M0,10.1 H16" stroke="#b22234" stroke-width="0.9"/>
+      <rect width="7" height="6.5" fill="#3c3b6e"/>
+      <circle cx="1.8" cy="1.8" r="0.4" fill="#ffffff"/>
+      <circle cx="5.2" cy="1.8" r="0.4" fill="#ffffff"/>
+      <circle cx="3.5" cy="3.3" r="0.4" fill="#ffffff"/>
+      <circle cx="1.8" cy="4.8" r="0.4" fill="#ffffff"/>
+      <circle cx="5.2" cy="4.8" r="0.4" fill="#ffffff"/>
+    </g>
+    <text x="156" y="140" fill="#ffffff" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">USA,</text>
+
+    <!-- CA -->
+    <g transform="translate(179, 135) scale(0.8125)" clip-path="url(#flagClip)">
+      <rect width="16" height="12" fill="#ff0000"/>
+      <rect x="4" y="0" width="8" height="12" fill="#ffffff"/>
+      <path d="M8,2.2 L8.7,4.3 L10.5,3.7 L9.8,5.5 L11.5,6.2 L9.5,7.2 L10,9.2 L8,8 L6,9.2 L6.5,7.2 L4.5,6.2 L6.2,5.5 L5.5,3.7 L7.3,4.3 Z M7.6,8 V10.2 H8.4 V8 Z" fill="#ff0000"/>
+    </g>
+    <text x="194" y="140" fill="#ffffff" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">CA,</text>
+
+    <!-- IE -->
+    <g transform="translate(212, 135) scale(0.8125)" clip-path="url(#flagClip)">
+      <rect x="0" y="0" width="5.33" height="12" fill="#169b62"/>
+      <rect x="5.33" y="0" width="5.34" height="12" fill="#ffffff"/>
+      <rect x="10.67" y="0" width="5.33" height="12" fill="#ff883e"/>
+    </g>
+    <text x="227" y="140" fill="#ffffff" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">IE,</text>
+
+    <!-- SK -->
+    <g transform="translate(241, 135) scale(0.8125)" clip-path="url(#flagClip)">
+      <rect x="0" y="0" width="16" height="4" fill="#ffffff"/>
+      <rect x="0" y="4" width="16" height="4" fill="#0b4ea2"/>
+      <rect x="0" y="8" width="16" height="4" fill="#ee1c25"/>
+      <path d="M2.5,2 H6.5 V6 C6.5,8.2 4.5,9.5 4.5,9.5 C4.5,9.5 2.5,8.2 2.5,6 Z" fill="#ee1c25" stroke="#ffffff" stroke-width="0.5"/>
+      <path d="M4.5,3.2 V8 M3.2,4.5 H5.8 M3.6,5.8 H5.4" stroke="#ffffff" stroke-width="0.6"/>
+    </g>
+    <text x="256" y="140" fill="#ffffff" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">SK,</text>
+
+    <!-- ES -->
+    <g transform="translate(272, 135) scale(0.8125)" clip-path="url(#flagClip)">
+      <rect width="16" height="12" fill="#f1bf00"/>
+      <rect x="0" y="0" width="16" height="3" fill="#aa151b"/>
+      <rect x="0" y="9" width="16" height="3" fill="#aa151b"/>
+      <rect x="3.5" y="4.5" width="2.5" height="3" fill="#aa151b" rx="0.5"/>
+    </g>
+    <text x="287" y="140" fill="#ffffff" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">ES,</text>
+
+    <!-- BE (Ends flush at x=326 to match numbers above) -->
+    <g transform="translate(302, 135) scale(0.8125)" clip-path="url(#flagClip)">
+      <rect x="0" y="0" width="5.33" height="12" fill="#000000"/>
+      <rect x="5.33" y="0" width="5.34" height="12" fill="#fdda24"/>
+      <rect x="10.67" y="0" width="5.33" height="12" fill="#ef2b2d"/>
+    </g>
+    <text x="317" y="140" fill="#ffffff" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">BE</text>
+  </g>
+</svg>
