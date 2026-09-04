@@ -14,7 +14,7 @@
     <!-- Row 1: Hackathons Total (Purple) -->
     <rect x="0" y="0" width="340" height="40" fill="#6a0dad" />
     <text x="14" y="20" fill="#ffffff" font-size="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" dominant-baseline="middle">Hackathons</text>
-    <text id="total" x="326" y="20" text-anchor="end" font-weight="700" fill="#ffffff" font-size="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">31</text>
+    <text id="total" x="326" y="20" text-anchor="end" font-weight="700" fill="#ffffff" font-size="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" dominant-baseline="middle">32</text>
 
     <!-- Row 2: MLH & HUK side-by-side -->
     <!-- MLH (White) -->
