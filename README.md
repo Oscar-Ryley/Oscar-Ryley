@@ -1,7 +1,6 @@
 ### Hi, I'm Oscar Ryley :)
 
-> ⚙️ **Current Project:** Hacking at Hack the North 2026, in [*this repository*](https://github.com/Oscar-Ryley/Hack-the-North-2026)!
->
+> ⚙️ **Current Project:** Hacking at Hack the North 2026, in [*this repository*](https://github.com/Oscar-Ryley/Hack-the-North-2026)!<br>
 > ☀️ **Summer Project:** EPSRC-funded summer research on [*Flood Risk Visualisation*](https://github.com/Oscar-Ryley/Flood-Risk-Exposure), part of the SAT-Guard grant.  
 
 <div align="center" style="white-space: nowrap;">
