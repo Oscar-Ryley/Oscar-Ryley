@@ -11,7 +11,7 @@
 </div>
 
 >**Hackathon Project Highlights:**<br>
->&nbsp;&nbsp;• [Painting w/ Digital Eyes](https://github.com/f2reninj5/peeping_painting), interactive acrylic portrait, OpenCV & OpenGL. (AstonHack 10)<br>
->&nbsp;&nbsp;• [Cube Route](https://github.com/FaintLocket424/leedshack2025), Live bus data visualisation in Minecraft. (LeedsHack 2025)<br>
->&nbsp;&nbsp;• [CHEAiT](https://github.com/samfeast/whack25), AI Agent with FER & voice recognition for a bluffing game. (WHACK 2025)<br>
->&nbsp;&nbsp;• [ExSpore](https://github.com/Oscar-Ryley/Game-Projects/tree/main/exspore), Mushroom-themed clicker game in the Godot engine. (hackSheffield 9)
+> 👁️ [Painting w/ Digital Eyes](https://github.com/f2reninj5/peeping_painting), interactive acrylic portrait, OpenCV & OpenGL. (AstonHack 10)<br>
+> 🚌 [Cube Route](https://github.com/FaintLocket424/leedshack2025), Live bus data visualisation in Minecraft. (LeedsHack 2025)<br>
+> 🃏 [CHEAiT](https://github.com/samfeast/whack25), AI Agent with FER & voice recognition for a bluffing game. (WHACK 2025)<br>
+> 🍄 [ExSpore](https://github.com/Oscar-Ryley/Game-Projects/tree/main/exspore), Mushroom-themed clicker game in the Godot engine. (hackSheffield 9)
