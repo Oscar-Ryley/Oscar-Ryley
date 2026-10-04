@@ -1,6 +1,6 @@
 ### Hi, I'm Oscar Ryley :)
 
-> #### **Projects**<br>
+> **Projects**<br>
 > 💜 **Current:** Organising [DurHack 2026](https://durhack.com/)<br>
 > 🎓 **Ongoing:** MEng Advanced Project on the Frustration Index of Signed Graphs<br>
 > ⚙️ **Previous:** Hacking at Hack the North 2026 with a [*GPTZero x LinkedIn Badge App*](https://github.com/Oscar-Ryley/Hack-the-North-2026)<br>
