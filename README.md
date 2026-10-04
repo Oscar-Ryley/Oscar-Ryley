@@ -1,9 +1,13 @@
 ### Hi, I'm Oscar Ryley :)
 
-> **PROJECTS**<br>
-> 💜 **Current:** Organising [DurHack 2026](https://durhack.com/)<br>
-> 🎓 **Ongoing:** MEng Advanced Project on the Frustration Index of Signed Graphs<br>
-> ⚙️ **Previous:** Hacking at Hack the North 2026 with a [*GPTZero x LinkedIn Badge App*](https://github.com/Oscar-Ryley/Hack-the-North-2026)<br>
+> ### **Projects**
+>
+> 💜 **Current:** Organising [DurHack 2026](https://durhack.com/)
+>
+> 🎓 **Ongoing:** MEng Advanced Project on the Frustration Index of Signed Graphs
+>
+> ⚙️ **Previous:** Hacking at Hack the North 2026 with a [*GPTZero x LinkedIn Badge App*](https://github.com/Oscar-Ryley/Hack-the-North-2026)
+>
 > ☀️ **Summer:** EPSRC-funded research on [*Flood Risk Visualisation*](https://github.com/Oscar-Ryley/Flood-Risk-Exposure), part of the £1m SAT-Guard grant.  
 
 <div align="center" style="white-space: nowrap;">
